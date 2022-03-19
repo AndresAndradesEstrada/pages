@@ -6,26 +6,83 @@
 <head>
       <meta charset="utf-8">
       <title>Finance</title>
-</head>
+      <style>
+        
+        *{
+             background-color: beige;
+        }
+        h1{
+         text-align: center;  }
+      .ancestor1{
+           color: blue; }
+      .subtitle{
+           text-align: center; }
+      
+     .subtitle.type1{
+           color:brown; }
+         .subtitle.type2{
+            color: forestgreen; }
+            .subtitle.type3{
+             color:purple  }
+.type1,
+.type2,
+.type3{
+     background-color: blanchedalmond;
+}
+     .subtitle#type1{               
+          font-style: italic; }
+     
+          .subtitle#type2{
+            font-style: oblique;
+            
+          }
+              .subtitle#type3{
+                font-style: italic;
+              
+           }
+               
+           .content.one{
+                color:indianred
+           }
+          
+           .content.two{
+                color: peru;
 
+     
+           }
+           .content.three{
+                color:yellowgreen;
+
+           }
+            
+           .content.four{
+                color: violet;
+           }
+           .content.five{
+                color: tomato;
+           }
+ 
+
+
+      </style>
 
 <body> 
-     <h1>Finances Today</h1>
-        
-        <p>AI and the finance industry are a match made in heaven. The financial sector relies on accuracy, real-time reporting and processing high volumes of quantitative data to make decisions, all areas intelligent machines excel in.</p>
-        <p>As the industry takes note of AI's efficiency and accuracy, it is rapidly implementing automation, chatbots, adaptive intelligence, algorithmic trading and machine learning into financial processes.   </p>
-        <p>One of the biggest financial trends of 2018 is the robo-advisor, an automated portfolio manager.</p>
-        <p>These automated advisors use AI and algorithms to scan data in the markets and predict the best stock or portfolio based on preferences. Wealth management firms are turning towards robo-advisors, not only because it saves both the company and client time and money, but it also produces some extraordinary returns.</p>
-        <p>Here are a few examples of how artificial intelligence is changing the financial industry. </p>
-
-    <h2>Betterment</h2>
+     <h1 class="ancestor1">Finances Today</h1>
+       
+     <p class="content one">AI and the finance industry are a match made in heaven. The financial sector relies on accuracy, real-time reporting and processing high volumes of quantitative data to make decisions, all areas intelligent machines excel in.
+          <p class="content two">As the industry takes note of AI's efficiency and accuracy, it is rapidly implementing automation, chatbots, adaptive intelligence, algorithmic trading and machine learning into financial processes.  
+             <p class="content three">One of the biggest financial trends of 2018 is the robo-advisor, an automated portfolio manager.
+               <p class="content four">These automated advisors use AI and algorithms to scan data in the markets and predict the best stock or portfolio based on preferences. Wealth management firms are turning towards robo-advisors, not only because it saves both the company and client time and money, but it also produces some extraordinary returns.
+                  <p class="content five">Here are a few examples of how artificial intelligence is changing the financial industry. 
+                 
+    <h2 class="subtitle type1" id="type1">Betterment</h2>
         <img src="../images/betterment.jpeg" alt="betterment">
 
        <p> Betterment is an automated financial investing platform and a pioneer of robo-advisor technology that uses AI to learn about an investor and build a personalized profile based on his or her financial plans. </p>
        <p>Betterment's robo-advisors use algorithms to automate tax loss harvesting, trading, transactions and portfolio management, all tasks that used to require a lot of human elbow grease and know-how.</p>
        <p>Betterment has $10 billion worth of assets under management and as of last year was serving 250,000 customers. </p>
     
-    <h2>AlphaSense</h2>
+    <h2 class="subtitle type2" id="type2">AlphaSense</h2>
          <img src="../images/alphasense.png" alt="alphasense banner">
      
     <p>AlphaSense created an AI-powered financial search engine to help investment firms gain an informational edge.</p>
@@ -33,7 +90,7 @@
     <p><strong>Industry impact</strong>, According to the company's website, more than 800 financial firms use AlphaSense, including some Fortune 500 corporations.
     </p>
     
-    <h2>Numerai</h2>
+    <h2 class="subtitle type3" id="type3">Numerai</h2>
          <img src="../images/numerai.png" alt="numerai banner">
 
       <p>Numerai is an AI-powered hedge fund using crowdsourced machine learning from thousands of data scientists around the world.</p>
