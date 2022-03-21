@@ -12,6 +12,8 @@
              background-color:blanchedalmond;
         }
         h1, .subtitle{
+             margin-left: 250px;
+             margin-right: 250px;
          text-align: center; 
          font-style: italic;
   }
@@ -32,7 +34,7 @@
           margin-top:40px;}
            
            .one, .two, .three, .four, .five{
-           text-align:justify;
+           text-align:left;
                font-size: 20px;
            font-style: italic;
            }
@@ -41,27 +43,36 @@
                 margin-top: 50px;
            }
            p{
-               
-               margin-left:80px;
-           margin-right:80px;
+              
+           margin-left:250px;
+           margin-right:250px;
            }
       
           .link{margin-top: 10px;}
            
           #imgone, #imgtwo, #imgthree{
-               margin-left: 80px;
-            margin-right: 80px;
-            margin-top: 20px;
-            margin-bottom: 40px;
-             
+     
+               display: block;
+             width: 100%;
             border-width: 3px;
             border-color: maroon;
             border-style: solid;
             
 
           }
+          .image{
+             margin-left: 250px;
+             margin-right: 250px;
+
+               
+               
+          }
            #marginlink{
                 margin-bottom: 40px;
+           }
+           
+           .link2{
+                margin-left: 300px;
            }
 
 
@@ -70,21 +81,25 @@
 <body> 
      <h1 class="subtitle type1">Finances Today</h1>
        
+     <div>
      <p class="content one" id="uno">AI and the finance industry are a match made in heaven. The financial sector relies on accuracy, real-time reporting and processing high volumes of quantitative data to make decisions, all areas intelligent machines excel in.
           <p class="content two">As the industry takes note of AI's efficiency and accuracy, it is rapidly implementing automation, chatbots, adaptive intelligence, algorithmic trading and machine learning into financial processes.  
              <p class="content three">One of the biggest financial trends of 2018 is the robo-advisor, an automated portfolio manager.
                <p class="content four">These automated advisors use AI and algorithms to scan data in the markets and predict the best stock or portfolio based on preferences. Wealth management firms are turning towards robo-advisors, not only because it saves both the company and client time and money, but it also produces some extraordinary returns.
-                  <p class="content five">Here are a few examples of how artificial intelligence is changing the financial industry. 
+                  <p class="content five">Here are a few examples of how artificial intelligence is changing the financial industry. </div>
                  
     <h2 class="subtitle type1" id="type1">Betterment</h2>
-        <img src="../images/betterment.jpeg" alt="betterment" id="imgone">
+     
+    <div class="image">
+    <img src="../images/betterment.jpeg" alt="betterment" id="imgone"> </div>
 
        <p class="content one"> Betterment is an automated financial investing platform and a pioneer of robo-advisor technology that uses AI to learn about an investor and build a personalized profile based on his or her financial plans. </p>
        <p class="content two">Betterment's robo-advisors use algorithms to automate tax loss harvesting, trading, transactions and portfolio management, all tasks that used to require a lot of human elbow grease and know-how.</p>
        <p class="content three">Betterment has $10 billion worth of assets under management and as of last year was serving 250,000 customers. </p>
     
     <h2 class="subtitle type2" id="type2">AlphaSense</h2>
-         <img src="../images/alphasense.png" alt="alphasense banner" id="imgtwo">
+    <div class="image">    
+    <img src="../images/alphasense.png" alt="alphasense banner" id="imgtwo"> </div>
      
     <p class="content one">AlphaSense created an AI-powered financial search engine to help investment firms gain an informational edge.</p>
     <p class="content two">Using a combination of linguistic search and natural language processing, the program can analyze key data points across 35,000 financial institutions. The system's ability to scan millions of data points and generate actionable reports based on pertinent financial data saves analysts countless hours of work.</p>
@@ -92,7 +107,9 @@
     </p>
     
     <h2 class="subtitle type3" id="type3">Numerai</h2>
-         <img src="../images/numerai.png" alt="numerai banner" id="imgthree">
+         <div class="image">
+              <img src="../images/numerai.png" alt="numerai banner" id="imgthree">
+          </div>
 
       <p class="content one " id="one">Numerai is an AI-powered hedge fund using crowdsourced machine learning from thousands of data scientists around the world.</p>
       <p class="content two" id="two">The company releases abstracted financial data to its community of data scientists, all of whom are using different machine learning models to predict the stock market.</p> 
@@ -100,7 +117,7 @@
       <p class="content four" id="four">But Numerai isn't really about rewarding winners and losers.  The competition is simply a way to collect more models. The company's real breakthrough is in how it synthesizes all of the varying approaches into a "Meta Model."</p>
        <p class="content five" id="marginlink"><strong>Industry impact</strong> The company is top secret about the makeup of the fund, its clients and performance, but has more than 35,000 data scientists contributing to its platform and has paid out some $15 million worth of its cryptocurrency.</p>
 
-       <a href="../index.html" class="link"><strong>Click to back to main page</strong></a>
+       <div class="link2"><a href="../index.html" class="link"><strong>Click to back to main page</strong></a> </div>
 </body>
 
 
